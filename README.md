@@ -21,3 +21,11 @@ Comparison sources:
 ## License
 
 The original instructions in this repository are available under the [MIT license](LICENSE). That license does not cover music, scans, recordings or other third-party material used with the workflow.
+
+## Install
+
+No package install. Copy this folder into your agent's skills directory, such as `.claude/skills/` or `.cursor/skills/` (or `~/.claude/skills/` for every project). The agent registers it from the `SKILL.md` frontmatter. Start a new session and ask for a play-along page.
+
+```
+cp -r trad-tune-playalong .claude/skills/
+```
